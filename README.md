@@ -85,7 +85,13 @@ A document can be defined as a collection of key-value pairs that contain dynami
         $gt : Value is greater than another value.
         $gte : Value is greater than or equal to another value.
         $in : Value is matched within an array.
+        
 ## logical operators
+       $and: Returns documents where both queries match
+       $or: Returns documents where either query matches
+       $nor: Returns documents where both queries fail to match
+       $not: Returns documents where the query does not match
+       
 ## indexes
 ## collections
 
